@@ -1,0 +1,12 @@
+@model Prenotazione;
+
+
+@{
+    ViewData["Title"] = "Conferma";
+}
+
+@if(Model != null){
+    <p>Nome: @Model.Nome; <br> Cognome: @Model.Cognome; <br> Email: @Model.Email; <br> Nato il: @Model.DataDiNascita; <br> Sesso: @Model.Sesso; <br> Ruolo: @Model.Ruolo</p>
+}
+
+
