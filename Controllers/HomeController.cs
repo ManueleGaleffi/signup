@@ -16,7 +16,6 @@ public class HomeController : Controller
 
     public IActionResult Index()
 {
-    //HttpContext.Session.SetString("NomeUtente", "Lorenzo Bologna");
     return View();
 }
 
